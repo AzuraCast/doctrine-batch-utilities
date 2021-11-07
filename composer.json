@@ -1,6 +1,6 @@
 {
     "name": "azuracast/doctrine-batch-utilities",
-    "description": "A customized fork of ocramius/DoctrineBAtchUtils.",
+    "description": "A customized fork of ocramius/DoctrineBatchUtils.",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
@@ -25,7 +25,8 @@
         }
     },
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "doctrine/orm": "^2.10|^3.0"
     },
     "require-dev": {
         "php-parallel-lint/php-console-highlighter": "^0.5.0",
