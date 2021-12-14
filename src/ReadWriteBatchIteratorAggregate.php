@@ -25,7 +25,7 @@ final class ReadWriteBatchIteratorAggregate extends AbstractBatchIteratorAggrega
     }
 
     /** @inheritDoc */
-    public function getIterator(): iterable
+    public function getIterator(): \Traversable
     {
         $iteration = 0;
         $resultSet = $this->resultSet;

@@ -7,7 +7,7 @@ namespace Azura\DoctrineBatchUtils;
 final class ReadOnlyBatchIteratorAggregate extends AbstractBatchIteratorAggregate
 {
     /** @inheritDoc */
-    public function getIterator(): iterable
+    public function getIterator(): \Traversable
     {
         $iteration = 0;
         foreach ($this->resultSet as $key => $value) {
